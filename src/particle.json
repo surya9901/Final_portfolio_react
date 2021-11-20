@@ -1,0 +1,64 @@
+{
+    "fps_limit": 60,
+    "interactivity": {
+        "events": {
+            "onClick": {
+                "enable": false,
+                "mode": "push"
+            },
+            "onHover": {
+                "enable": false,
+                "mode": "repulse"
+            },
+            "resize": false
+        },
+        "modes": {
+            "push": {
+                "particles_nb": 10
+            },
+            "repulse": {
+                "distance": 0,
+                "duration": 0.7
+            }
+        }
+    },
+    "particles": {
+        "color": {
+            "value": "#ffffff"
+        },
+        "links": {
+            "color": "#DAA520",
+            "distance": 100,
+            "enable": true,
+            "opacity": 0.4,
+            "width": 1
+        },
+        "move": {
+            "bounce": false,
+            "direction": "none",
+            "enable": true,
+            "outMode": "out",
+            "random": true,
+            "speed": 1.5,
+            "straight": false
+        },
+        "number": {
+            "density": {
+                "enable": true,
+                "area": 1200
+            },
+            "value": 100
+        },
+        "opacity": {
+            "value": 0.15
+        },
+        "shape": {
+            "type": "circle"
+        },
+        "size": {
+            "random": true,
+            "value": 5
+        }
+    },
+    "detectRetina": true
+}

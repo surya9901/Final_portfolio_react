@@ -1,0 +1,47 @@
+.preview_box {
+  position: relative;
+  margin-top: 15px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 0.5px goldenrod;
+}
+
+.preview_box > h1 {
+  text-decoration: underline 2px goldenrod;
+}
+
+
+.box {
+  background-color: black;
+  padding: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 3px goldenrod;
+  color: white;
+}
+
+.box > h1 {
+  color: goldenrod;
+}
+
+.cv_preview{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cv_preview > a {
+    background-color: goldenrod;
+    color: whitesmoke;
+    padding: 3px 5px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.cv_preview > a:hover {
+    background-color:black;
+    color: goldenrod;
+    padding: 3px 5px;
+    font-family: "Varela Round", sans-serif;
+    box-shadow: 0 0 10px 0.5px goldenrod ;
+}
