@@ -21,9 +21,9 @@ import Project from './Components/Project/Project';
 function App() {
   return (
     <>
-      <Particles options={particleOption}/>
       <Router>
         <Navbar />
+        <Particles options={particleOption}/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />

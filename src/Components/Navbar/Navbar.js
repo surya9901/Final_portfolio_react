@@ -17,7 +17,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-black">
                 <div className="container-fluid" id="container_fluid">
-                    <Link to="/" className="navbar-brand">
+                    <Link to="/" className="navbar-brand" onClick={toggleClose}>
                         <h1 id="navbartitle">
                             <i className="fa fa-briefcase" aria-hidden="true"></i> Port<span>F</span>olio
                         </h1>

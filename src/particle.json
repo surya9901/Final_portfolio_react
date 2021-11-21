@@ -1,5 +1,5 @@
 {
-    "fps_limit": 60,
+    "fps_limit": 400,
     "interactivity": {
         "events": {
             "onClick": {
@@ -30,7 +30,7 @@
             "color": "#DAA520",
             "distance": 100,
             "enable": true,
-            "opacity": 0.4,
+            "opacity": 0.5,
             "width": 1
         },
         "move": {
@@ -47,7 +47,7 @@
                 "enable": true,
                 "area": 1200
             },
-            "value": 100
+            "value": 110
         },
         "opacity": {
             "value": 0.15
