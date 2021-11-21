@@ -98,7 +98,7 @@ function Contact() {
                                 <a href="mailto:surya9901@gmail.com?subject=subject text" target="_blank" rel="noreferrer noopener"><i class="fas fa-envelope-open-text"></i></a>
                             </div>
                             <div className="col-lg-3">
-                                <a href="https://drive.google.com/file/d/1CjyxwPVrryD9a1nyHd2dBghVLiZH5whN/view?usp=sharing" target="_blank" rel="noreferrer noopener"><i class="far fa-file"></i></a>
+                                <a href="https://drive.google.com/file/d/1VBG_8FzACM27HbsHAbAsimgfPySTkEFT/view?usp=sharing" target="_blank" rel="noreferrer noopener"><i class="far fa-file"></i></a>
                             </div>
                         </div>
                     </div>
