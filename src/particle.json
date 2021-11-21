@@ -30,7 +30,7 @@
             "color": "#DAA520",
             "distance": 100,
             "enable": true,
-            "opacity": 0.5,
+            "opacity": 0.4,
             "width": 1
         },
         "move": {
@@ -39,7 +39,7 @@
             "enable": true,
             "outMode": "out",
             "random": true,
-            "speed": 1.5,
+            "speed": 2,
             "straight": false
         },
         "number": {

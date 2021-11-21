@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import "./Project.css";
 import Aos from 'aos';
+import env from "../settings"
 
 function Project() {
 
@@ -27,7 +28,7 @@ function Project() {
     return (
         <div className="container">
             <div className="cv_preview" data-aos="flip-left">
-                <a className="btn" href="https://drive.google.com/file/d/1VBG_8FzACM27HbsHAbAsimgfPySTkEFT/view?usp=sharing" target="_blank" rel="noreferrer noopener" >
+                <a className="btn" href={env.resume} target="_blank" rel="noreferrer noopener" >
                     Resume{" "}
                     <i class="fas fa-cloud-download-alt"></i>
                 </a>
