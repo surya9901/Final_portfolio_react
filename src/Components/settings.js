@@ -1,7 +1,7 @@
 let getSettings = () => {
     return {
         api: "https://suryas-port-contact-form.herokuapp.com",
-        resume: "https://drive.google.com/file/d/1kl5PevhuXEaRpDMiz_KRZv_05PsbyUdB/view?usp=sharing"
+        resume: "https://drive.google.com/file/d/1EmIrNgkyl5xKAkha4JwwdQP3Zq_2tfkE/view?usp=sharing"
         // api: "http://localhost:5000"
     }
 }
