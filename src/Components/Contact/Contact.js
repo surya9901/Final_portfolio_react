@@ -32,11 +32,7 @@ function Contact() {
             Message: message
         };
         try {
-            let postData = await axios.post(`${env.api}/contact`, { message: details }, {
-                headers: {
-                    "Content-Type": "application/json;charset=utf-8",
-                }
-            });
+            let postData = await axios.post(`${env.api}/contact`, { message: details });
             setStatus("Submit")
             setName("")
             setLastName("")
