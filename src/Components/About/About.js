@@ -8,7 +8,7 @@ import Aos from 'aos';
 function About() {
     useEffect(() => {
         Aos.init({
-            duration: 1000,
+            duration: 1200,
         });
     }, [])
 
@@ -30,7 +30,7 @@ function About() {
             <div className="container mt-3">
                 <div className="row">
                     <div className="about-image col-lg-4 text-center">
-                        <img data-aos="zoom-out" alt="surya" src={Image} />
+                        <img data-aos="zoom-in" alt="surya" src={Image} />
                     </div>
                     <div className="about-detail col-lg-8" data-aos="zoom-in">
                         <h3>
