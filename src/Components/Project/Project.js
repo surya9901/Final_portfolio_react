@@ -28,7 +28,7 @@ function Project() {
         "site_link": "https://gshort-urlshortner.herokuapp.com/",
     }, {
         "title": "Sb2 Admin",
-        "description": "This is a React Admin web app used to display the CRUD operations, built using JavaScript, React, Axios, Usecontext Hook, React router dom and Bootsstrap.",
+        "description": "This is a React Admin web app used to display the CRUD operations, built using JavaScript, React, Axios, Usecontext Hook, React router dom and Bootstrap.",
         "github_link": "https://github.com/surya9901/sb2admin",
         "site_link": "https://sb2admin.netlify.app/product",
     }, {
