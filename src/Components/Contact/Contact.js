@@ -88,7 +88,7 @@ function Contact() {
                         </div>
                     </div>
                     <div className="form-floating">
-                        <textarea className="form-control mb-3" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Leave a comment here" style={{ "height": "100px" }} id="floatingTextarea"></textarea>
+                        <textarea className="form-control mb-3" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Leave a comment here" style={{ "height": "100px" }} id="floatingTextarea" required></textarea>
                         <label for="floatingTextarea">Leave your comment here....</label>
                     </div>
                     <input className="btn" id="contact_submit" type="Submit" value={status} />
