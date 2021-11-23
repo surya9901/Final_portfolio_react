@@ -66,7 +66,7 @@ function Project() {
 
     return (
         <div className="container mb-3">
-            <div className="cv_preview mt-2" data-aos="flip-left">
+            <div className="cv_preview mt-3" data-aos="flip-left">
                 <a className="btn" href={env.resume} target="_blank" rel="noreferrer noopener" >
                     Resume{" "}
                     <i className="fas fa-cloud-download-alt"></i>
