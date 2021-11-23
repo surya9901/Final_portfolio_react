@@ -18,11 +18,17 @@ function Contact() {
     const [email, setEmail] = useState("")
     const [phone, setPhone] = useState("")
     const [message, setMessage] = useState("")
+    const [sent, setSent] = useState(false)
 
+    let msgsent = () => {
+        setSent(true)
+        setTimeout(() => {
+            setSent(false)
+        }, 1500);
+    }
 
     let handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(env.api)
         setStatus("Sending..")
         let details = {
             Name: name,
@@ -39,6 +45,7 @@ function Contact() {
             setEmail("")
             setPhone("")
             setMessage("")
+            msgsent()
         } catch (error) {
             console.log(error)
         }
@@ -49,6 +56,9 @@ function Contact() {
         <form onSubmit={handleSubmit}>
             <div className="container text-center col col-lg-6 mt-4" data-aos="zoom out">
                 <div className="name_box col-lg-12 text-center">
+                    {
+                        sent ? <p style={{ "color": "green" }} data-aos="zoom-out">Your message has been sent <i className="fas fa-check"></i></p> : ""
+                    }
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="form-floating mb-3">
@@ -103,7 +113,6 @@ function Contact() {
                     </div>
                 </div>
             </div>
-
         </form>
 
     )
