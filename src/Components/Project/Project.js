@@ -31,11 +31,6 @@ function Project() {
         "description": "This is a web app which uses Api to display the Nationality & Probability by giving your name as the input, it was built using JavaScript, DOM and Bootstrap.",
         "github_link": "https://github.com/surya9901/Nationalize",
         "site_link": "https://nationalizeio.netlify.app/",
-    }, {
-        "title": "Animie.io",
-        "description": "This is a web app which uses Api to display the Animie details by giving your name of the animie as the input, it was built using JavaScript, DOM and Bootstrap.",
-        "github_link": "https://github.com/surya9901/Dom_Manipulation_Annimie_API",
-        "site_link": "https://animationapi.netlify.app/",
     }]
 
 

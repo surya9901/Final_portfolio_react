@@ -16,14 +16,12 @@
   background-color: goldenrod;
   color: white;
   transition: ease-in-out;
-  text-decoration: underline 1px white;
 }
 
 #navbarNav >.active:hover{
   background-color: black;
   color: goldenrod;
   transition: ease-in-out;
-  text-decoration: underline 1px goldenrod;
   box-shadow: 0 0 10px 1px goldenrod;
 }
 

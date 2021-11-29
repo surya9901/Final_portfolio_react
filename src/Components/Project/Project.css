@@ -45,7 +45,6 @@
 #git_btn:hover,
 #site_btn:hover {
   font-family: "Varela Round", sans-serif;
-  text-decoration: underline 2px goldenrod;
   background-color: black;
   box-shadow: 0 0 5px 0.3px goldenrod;
   color:goldenrod;
