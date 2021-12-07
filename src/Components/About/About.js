@@ -57,25 +57,27 @@ function About() {
                         <Link className="btn" to="/contact">
                             Connect <i className="fab fa-connectdevelop" aria-hidden="true"></i>
                         </Link>
+
+                    </div>
+                    <div className="preview_box text-center mt-4 mb-5" data-aos="zoom-in">
+                        <h1>Experience:</h1>
+                        <div className="row">
+                            {
+                                exp.map(obj => {
+                                    return (
+                                        <div className="col col-lg-4" id="exp_col">
+                                            <div className="box mt-2 mb-2">
+                                                <h1>{obj.numbers}+</h1>
+                                                <h6>{obj.title}</h6>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
                 </div>
-                <div className="preview_box text-center mb-5" data-aos="zoom-in">
-                <h1>Experience:</h1>
-                <div className="row">
-                    {
-                        exp.map(obj => {
-                            return (
-                                <div className="col col-lg-4" id="exp_col">
-                                    <div className="box mt-2 mb-2">
-                                        <h1>{obj.numbers}+</h1>
-                                        <h6>{obj.title}</h6>
-                                    </div>
-                                </div>
-                            )
-                        })
-                    }
-                </div>
-            </div>
+
             </div>
         </>
     )
