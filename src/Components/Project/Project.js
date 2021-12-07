@@ -22,10 +22,10 @@ function Project() {
         "github_link": "https://github.com/surya9901/Music-Player-Frontend",
         "site_link": "https://gmusic.netlify.app/",
     }, {
-        "title": "URL Shortner",
-        "description": "This is a Url shortner a server side rendering web app built using JavaScript, Node.js, React, Bootstrap and MongoDB.",
+        "title": "E-Diary Manager",
+        "description": "Manage your day to day Diary data Online built using JavaScript, Node.js, React, Bootstrap and MongoDB.",
         "github_link": "https://github.com/surya9901/URL-Shortner",
-        "site_link": "https://gshort-urlshortner.herokuapp.com/",
+        "site_link": "https://e-diary.netlify.app/",
     }, {
         "title": "Nationalize",
         "description": "This is a web app which uses Api to display the Nationality & Probability by giving your name as the input, it was built using JavaScript, DOM and Bootstrap.",
