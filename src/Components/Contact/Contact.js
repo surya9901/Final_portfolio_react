@@ -38,7 +38,7 @@ function Contact() {
             Message: message
         };
         try {
-            let postData = await axios.post(`${env.api}/contact`, { message: details });
+            await axios.post(`${env.api}/contact`, { message: details });
             setStatus("Submit")
             setName("")
             setLastName("")
