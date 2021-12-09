@@ -12,11 +12,6 @@ function Project() {
     }, [])
 
     const project = [{
-        "title": "TODO",
-        "description": "This is a dialy planner web app built using JavaScript, Node.js, React, Bootstrap, MongoDB, Bcryptjs and jsonwebtoken.",
-        "github_link": "https://github.com/surya9901/ToDo_reactPart",
-        "site_link": "https://suryastodo.netlify.app/"
-    }, {
         "title": "Music player",
         "description": "This is a Music player web app built using JavaScript, Node.js, React, Bootstrap and MongoDB.",
         "github_link": "https://github.com/surya9901/Music-Player-Frontend",
@@ -31,6 +26,11 @@ function Project() {
         "description": "A Blog web app built using JavaScript, Node.js, React, Bootstrap and MongoDB.",
         "github_link": "https://github.com/surya9901/Blog-App-Frontend",
         "site_link": "https://bblogs.netlify.app/",
+    }, {
+        "title": "TODO",
+        "description": "This is a dialy planner web app built using JavaScript, Node.js, React, Bootstrap, MongoDB, Bcryptjs and jsonwebtoken.",
+        "github_link": "https://github.com/surya9901/ToDo_reactPart",
+        "site_link": "https://suryastodo.netlify.app/"
     }]
 
 
