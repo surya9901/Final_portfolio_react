@@ -27,6 +27,11 @@ function Project() {
         "github_link": "https://github.com/surya9901/URL-Shortner",
         "site_link": "https://e-diary.netlify.app/",
     }, {
+        "title": "B Blog",
+        "description": "A Blog web app built using JavaScript, Node.js, React, Bootstrap and MongoDB.",
+        "github_link": "https://github.com/surya9901/Blog-App-Frontend",
+        "site_link": "https://bblogs.netlify.app/",
+    }, {
         "title": "Nationalize",
         "description": "This is a web app which uses Api to display the Nationality & Probability by giving your name as the input, it was built using JavaScript, DOM and Bootstrap.",
         "github_link": "https://github.com/surya9901/Nationalize",
