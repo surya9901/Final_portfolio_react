@@ -34,12 +34,13 @@
   font-size: 18px;
   border-radius: 10px 10px 10px 10px;
   transition: 700ms;
-  padding: 5px 3px 5px 3px;
+  padding: 5px;
   margin: 5px 15px 0 0;
 }
 
 #navbarNav > a:hover {
   border-radius: 10px 10px 10px 10px;
+  padding: 5px;
   background-color: goldenrod;
   color: white;
   transition: ease-in-out;

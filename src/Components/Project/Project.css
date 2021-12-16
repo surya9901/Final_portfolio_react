@@ -5,15 +5,15 @@
 
 .cv_preview > a {
   background-color: goldenrod;
-  color: whitesmoke;
-  padding: 3px 5px;
+  color: white;
+  padding: 6px;
   font-family: "Varela Round", sans-serif;
 }
 
 .cv_preview > a:hover {
   background-color: black;
   color: goldenrod;
-  padding: 3px 5px;
+  padding: 6px;
   font-family: "Varela Round", sans-serif;
   box-shadow: 0 0 10px 0.5px goldenrod;
 }
@@ -39,7 +39,7 @@
   background-color: goldenrod;
   box-shadow: 0 0 5px 0.3px black;
   color:white;
-  padding: 5px ;
+  padding: 4px 6px ;
 }
 
 #git_btn:hover,

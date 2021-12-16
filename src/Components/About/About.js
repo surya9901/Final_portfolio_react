@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Image from './Image.jpg'
 import "./About.css"
 import Aos from 'aos';
+import env from '../settings'
 
 
 function About() {
@@ -27,7 +28,7 @@ function About() {
 
     return (
         <>
-            <div className="container mt-3">
+            <div className="container mt-4">
                 <div className="row">
                     <div className="about-image col-lg-4 text-center">
                         <img data-aos="zoom-in" alt="surya" src={Image} />
@@ -54,12 +55,16 @@ function About() {
                         <p>
                             I love Travelling and Exploring different places and my most favourite game is Badminton.
                         </p>
-                        <Link className="btn" to="/contact">
-                            Connect <i className="fab fa-connectdevelop" aria-hidden="true"></i>
-                        </Link>
-
+                        <div className='about-buttons'>
+                            <Link className="btn m-4" to="/contact">
+                                Connect <i className="fab fa-connectdevelop" aria-hidden="true"></i>
+                            </Link>
+                            <a className="btn m-4" href={env.resume} target="_blank" rel="noreferrer noopener">
+                                Resume <i className="fas fa-cloud-download-alt"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div className="preview_box text-center mt-4 mb-5" data-aos="zoom-in">
+                    <div className="preview_box text-center mt-5 mb-5" data-aos="zoom-in">
                         <h1>Experience:</h1>
                         <div className="row">
                             {

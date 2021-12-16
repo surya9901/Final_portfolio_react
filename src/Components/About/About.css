@@ -3,14 +3,14 @@
   padding: 25px;
 }
 
-.about-detail > a {
+.about-buttons> a {
   margin-top: 10px;
   font-family: "Varela Round", sans-serif;
   color: goldenrod;
   border: 1px solid goldenrod;
 }
 
-.about-detail > a:hover {
+.about-buttons > a:hover {
   font-family: "Varela Round", sans-serif;
   color: white;
   background-color: goldenrod;

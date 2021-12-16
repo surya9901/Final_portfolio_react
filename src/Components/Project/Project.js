@@ -1,13 +1,12 @@
 import React, { useEffect } from 'react';
 import "./Project.css";
 import Aos from 'aos';
-import env from "../settings"
 
 function Project() {
 
     useEffect(() => {
         Aos.init({
-            duration: 1400,
+            duration: 1500,
         });
     }, [])
 
@@ -36,13 +35,7 @@ function Project() {
 
     return (
         <div className="container mb-3">
-            <div className="cv_preview mt-1 mb-3" data-aos="flip-left">
-                <a className="btn" href={env.resume} target="_blank" rel="noreferrer noopener" >
-                    Resume{" "}
-                    <i className="fas fa-cloud-download-alt"></i>
-                </a>
-            </div>
-
+            <h2 className='mb-3' style={{color:'white'}} data-aos="fade-in">Projects:</h2>
             <div className="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-in">
                 {
                     project.map(obj => {
