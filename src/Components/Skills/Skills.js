@@ -63,7 +63,7 @@ function Skills() {
                     </div>
                     <div className="col-lg-5">
                         <div className="additional_skill mt-3">
-                            <h4 data-aos="zoom-in">Intrest & other Skills:</h4>
+                            <h4 data-aos="zoom-in">Interest & other Skills:</h4>
                             <ul className="skill_point" data-aos="zoom-in">
                                 {
                                     add_skill.map(obj => {
